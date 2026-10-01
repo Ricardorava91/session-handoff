@@ -1,0 +1,26 @@
+{
+  "skill_name": "session-handoff",
+  "evals": [
+    {
+      "id": 1,
+      "name": "codigo-inventario-flask",
+      "prompt": "Conversación simulada: app de inventario para tienda de ropa (ver session-handoff-workspace/conversations/conv1-codigo.md). El usuario pide un handoff.",
+      "expected_output": "Handoff en español; siguiente paso: pantalla de movimientos / verificar SKUs únicas e importar Excel. Descartados: Django+PostgreSQL, Firebase, CDN, React, login Google. Sin SECRET_KEY ni contraseña admin.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "negocio-propuesta-almenara",
+      "prompt": "Conversación simulada: propuesta comercial FitGest para Grupo Almenara (conv2-negocio.md). El usuario pide traspaso.",
+      "expected_output": "Siguiente paso: plan de implantación, pero 8 semanas sin confirmar (preguntar a Andrés). 60% sin validar (Lucía). Descartado: funcionalidades primero, mencionar GymPro, descuento >15%. Usted, máx 6 págs.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "investigacion-teletrabajo-tfm",
+      "prompt": "Conversación simulada: revisión de literatura TFM sobre teletrabajo (conv3-investigacion.md). El usuario pide guardar contexto.",
+      "expected_output": "Siguiente paso: leer 5 papers pendientes. Descartado: Gallup/consultoras, orden cronológico/por país, n<200 (estudio Chile). Hipótesis marcada como no probada; dato Gibbs sin verificar. Entrega 20 nov, 4000 palabras, APA 7.",
+      "files": []
+    }
+  ]
+}
